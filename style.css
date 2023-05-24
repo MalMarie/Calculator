@@ -1,4 +1,7 @@
-body {
+.container {
+    height: 100vh;
+    width: 100%;
+
     display: flex;
 
 
@@ -40,29 +43,33 @@ body {
     padding: 2em;
 }
 
+
 .calculatorKeys {
     /* display: flex;
     justify-content: flex-start;
     flex-wrap: wrap; */
 
     display: grid;
-    grid-template-columns: repeat(4, 4em);
+    grid-template-columns: repeat(4, 5em);
     grid-template-rows: repeat(5, 5em);
-
+    
 
 
     width: 4em;
     margin:  0;
+    padding-left: 0.3em;
 }
 
-input {
+.button {
     /* display: grid;
     grid-template-columns: repeat(4, 1em);
     grid-template-rows: repeat(4, 2em); */
-    
+    justify-content: center;
+    align-items: center;
+
     background-color: rgb(206, 179, 179);
 
-    width: 3em;
+    width: 4em;
     height: auto;
 
     color: rgb(54, 34, 34);
@@ -80,6 +87,7 @@ input {
 
 .equal {
     background-color: green;
+    width: 8.5em ;
 }
 
 .suppr {
