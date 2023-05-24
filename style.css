@@ -20,6 +20,7 @@
     height: 35em;
 
     background-color: rgb(107, 80, 80);
+    border-radius: 8%;
 
     padding: 2em;
     margin: 0em;
@@ -37,12 +38,22 @@
 .calculatorScreen {
     background-color: aliceblue;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+
     width: 15em;
     height: 4em;
     margin: 0.5em;
     padding: 2em;
 }
 
+.display {
+    
+    background-color: aliceblue;
+    border: none;
+}
 
 .calculatorKeys {
     /* display: flex;
